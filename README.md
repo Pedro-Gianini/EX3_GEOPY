@@ -3,8 +3,8 @@
 
 Bibliotecas usadas: gdal-bin python-gdal python3-gdal ; python3-rtree ; geopandas==0.10.0 ; descartes ; io ; pandas ; geopandas ; matplotlib.pyplot/patheffects ; contextily
 
-Funções aprendidas: files.upload(); read_csv(); import geocode; .merge(); .to_crs(); .plot(); buffer=~nome do arquivo~.buffer(tamanho do buffer em metros);
-.shape; .title('título de escolha'); sjoin('~tabela1~','~tabela2~',how='inner',predicate='within') ; .sum()
+Funções aprendidas: files.upload(); read_csv(); import geocode; .merge(); .to_crs(); .plot(); buffer="nome do arquivo".buffer(tamanho do buffer em metros);
+.shape; .title('título de escolha'); sjoin("tabela1","tabela2",how='inner',predicate='within') ; .sum()
 
 Conteúdos abordados :
 Instalação e atualização das bibliotecas; leitura de arquivos offline que estão no hd da máquina usando a função files.upload(); Em seguida o arquivo é lido e é feita a geocodificação dos mesmo , logo após é feita a junção da tabela original do arquivo com os novos dados geocodificados usando a função .merge(); Depois é feita a reprojeção do sistema de coordenada usando a função .to_crs() e são plotados os endereços com a função .plot(); por fim usamos a função to_file('areas_verdes.shp'), para salvar o arquivo desejado. 
