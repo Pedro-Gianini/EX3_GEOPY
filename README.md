@@ -1,4 +1,4 @@
-## Solução dos exercícios da TERCEIRA aula do curso GeoPY
+## Solução dos exercícios da terceira aula do curso GeoPY
 ## Geocodificação e concatenação espacial
 
 Bibliotecas usadas: gdal-bin python-gdal python3-gdal ; python3-rtree ; geopandas==0.10.0 ; descartes ; io ; pandas ; geopandas ; matplotlib.pyplot/patheffects ; contextily
